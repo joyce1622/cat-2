@@ -12,14 +12,33 @@ body {
 	margin: auto;
 }
 header {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://github.com/joyce1622/cat-2/blob/main/barbie%20doll.jpg?raw=true);
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/barbie\ doll.jpg);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	position: relative;
 }
-
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
 .logo {
 	float: left;
 }
@@ -91,7 +110,40 @@ header {
 	.welcome-text h1 {
 		font-size: 30px;
 	}
-	
+	col-4{
+        flex-basis: 25%;
+        padding: 10px; min-width: 200;
+        margin-bottom: 50px;
+        transition: transform 0.9s;
+    
+	}
+	.h2{
+		text-align: center;
+	color: #333;
+	text-emphasis-color: #333;
+ 
+
+	}
+	.nav-area {
+		float: right;
+		list-style: none;
+		margin-top: 30px;
+	}
+	.nav-area li {
+		display: inline-block;
+	}
+	.nav-area li a {
+		color: #fff;
+		text-decoration: none;
+		padding: 5px 20px;
+		font-family: poppins;
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+	.nav-area li a:hover {
+		background: #fff;
+		color: #333;
+	}
 	
 	.container{
 		max-width:1300px;
@@ -235,4 +287,3 @@ header {
 	.btn:hover{
 		background:#fff;
 	}
-	
