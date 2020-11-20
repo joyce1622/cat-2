@@ -116,12 +116,7 @@ header {
 		padding-left:25px;
 		padding-right:25px;
 	}
-	.row{
-		display:flex;
-		align-items:center;
-		flex-wrap:wrap;
-		justify-content:space-around
-	}
+	
 	.col-4{
 		flex-basis:25%;
 		padding:10px;
