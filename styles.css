@@ -130,8 +130,8 @@ header {
 		transition:transform 0.5s;
 	}
 	.col-4 img{
-		width:30px;
-		heigth:30px;
+		width:100%;
+		heigth:100%;
 	}
 	.title{
 		text-align:center;
